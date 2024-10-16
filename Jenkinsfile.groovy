@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('Build){
+        stage('Build'){
             echo 'Building...'
             echo 'python3 P1.py'
         }
