@@ -4,7 +4,7 @@ pipeline{
         stage('Build'){
             steps{
             echo 'Building...'
-            echo 'python3 P1.py'
+            echo 'P1.py'
             } 
         }
         stage('Test'){
